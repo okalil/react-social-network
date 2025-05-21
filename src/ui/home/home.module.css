@@ -1,0 +1,22 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 100vh;
+  height: auto;
+}
+.header {
+  height: 80px;
+  padding: 27px 37px;
+  background-color: var(--primary);
+}
+.headerTitle {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--on-primary);
+}
+.feedContainer {
+  display: grid;
+  gap: 24px;
+  padding: 24px;
+}

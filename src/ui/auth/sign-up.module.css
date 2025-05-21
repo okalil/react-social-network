@@ -1,0 +1,28 @@
+.signUpContainer {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.signUpForm {
+  border: 1px solid #cccccc;
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  width: 500px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.signUpTitle {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.signUpButton {
+  width: 111px;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-left: auto;
+}

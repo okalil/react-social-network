@@ -1,0 +1,11 @@
+.deletePostTitle {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+.deletePostActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-end;
+}

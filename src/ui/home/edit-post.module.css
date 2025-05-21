@@ -1,0 +1,17 @@
+.editPostForm {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.editPostTitle {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.editPostActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-end;
+}

@@ -1,0 +1,87 @@
+.button {
+  background-color: #7695ec;
+  border-radius: 8px;
+  height: 32px;
+  width: 120px;
+  color: white;
+  display: grid;
+  place-content: center;
+  font-weight: 700;
+  font-size: 16px;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &:hover:not(:disabled) {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  &[data-variant="danger"] {
+    background-color: #ff5151;
+  }
+  &[data-variant="secondary"] {
+    border: 1px solid #999999;
+    color: black;
+    background-color: white;
+  }
+  &[data-variant="success"] {
+    background-color: #47b960;
+  }
+}
+
+.buttonSpinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input {
+  border: 1px solid #777777;
+  min-height: 32px;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 14px;
+
+  &::placeholder {
+    color: #cccccc;
+  }
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 16px;
+  position: relative;
+  min-width: 660px;
+  max-width: 90%;
+}

@@ -1,0 +1,38 @@
+:root {
+  --primary: #7695ec;
+  --on-primary: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #dddddd;
+}
+
+body,
+input,
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  height: auto;
+}
+
+ul,
+li {
+  list-style: none;
+}

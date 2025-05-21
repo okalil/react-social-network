@@ -1,0 +1,58 @@
+.fallbackMessage {
+  text-align: center;
+  padding: 48px;
+}
+
+.postsList {
+  display: grid;
+  gap: 24px;
+}
+
+.postRow {
+  border: 1px solid #999999;
+  border-radius: 16px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.postRowHeader {
+  background-color: var(--primary);
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 24px;
+}
+
+.postRowTitle {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--on-primary);
+}
+
+.postRowAction {
+  cursor: pointer;
+}
+
+.postRowContentContainer {
+  padding: 24px;
+}
+
+.postRowContentInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #777777;
+  font-size: 18px;
+  margin-bottom: 16px;
+
+  & span:first-child {
+    font-weight: 700;
+  }
+}
+
+.postRowContent {
+  font-size: 18px;
+  white-space: pre-wrap;
+}
